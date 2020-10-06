@@ -1,7 +1,7 @@
 # 5-Stage-Pipeline-CPU
 使用Verilog HDL與Modelsim模擬器，以ALU Design 為基礎，<br>
 設計一個Pipelined MIPS-Lite CPU，<br>
-內含16道指令(add, sub, and, or, sll, slt,  lw, sw, beq, bne, j, multu, mfhi, mflo, nop)。
+內含16道指令(add, sub, and, or, sll, slt,  lw, sw, beq, bne, j, multu, mfhi, mflo, nop)。<br>
 此為團隊作品，分工上程式碼全部由本人撰寫，組員負責報告撰寫。<br>
 <br>
 <br>
