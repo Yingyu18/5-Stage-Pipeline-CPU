@@ -2,7 +2,7 @@
 使用Verilog HDL與Modelsim模擬器，以ALU Design 為基礎，<br>
 設計一個Pipelined MIPS-Lite CPU，<br>
 內含16道指令(add, sub, and, or, sll, slt,  lw, sw, beq, bne, j, multu, mfhi, mflo, nop)。<br>
-此為團隊作品，分工上程式碼全部由本人撰寫，組員負責報告撰寫。<br>
+此為團隊作品，分工上程式碼全部由本人撰寫，組員負責報告撰寫及繪製架構圖。<br>
 <br>
 <br>
 
@@ -26,7 +26,7 @@ instr_mem.txt則為指定執行之指令內容<br>
 <br>
 
 ## 架構圖
-![]()
+![](https://github.com/sha310139/5-Stage-Pipeline-CPU/blob/main/results/datapath.jpg)
 <br>
 <br>
 
@@ -124,11 +124,13 @@ MEM階與WB階間的暫存器，在clk為posedge時更新其儲存資料。存�
     <11> bne     $t7, $s2, 3
     
 
-![]()
+![](https://github.com/sha310139/5-Stage-Pipeline-CPU/blob/main/results/result1.PNG)
+![](https://github.com/sha310139/5-Stage-Pipeline-CPU/blob/main/results/result2.PNG)
 <br>
 上方為11道指令於terminal輸出的結果，能觀察出指令之暫存器數值與輸出結果相符合。<br>
 下方為11道指令顯示之waveform圖形。<br>
 <br>
-![]()
+![](https://github.com/sha310139/5-Stage-Pipeline-CPU/blob/main/results/waveform1.PNG)
+![](https://github.com/sha310139/5-Stage-Pipeline-CPU/blob/main/results/waveform2.PNG)
 
 
